@@ -12,6 +12,8 @@ app.use(bodyParser.urlencoded({extended: true}));
 
 app.listen(port, function(){
     console.log(`server rodando na porta ${port}`);
+    
+    console.log(process.env);
 });
 
 module.exports = () => {
