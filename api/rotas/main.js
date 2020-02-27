@@ -7,7 +7,7 @@ module.exports = (app) => {
                 });
             },
             html: function(){
-                res.redirect('/main.html');
+                res.redirect('/login.html');
             }
         });
     });    
